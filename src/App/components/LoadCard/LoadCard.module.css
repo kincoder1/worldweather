@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+}
+
+.img {
+    background-image: url(../../../img/loading.gif); background-size: cover; background-position: center;
+    border-radius: 150px; height: 35vh; width: 17vw;
+}
+
+
+
+
+@media screen and (min-width: 300px) {
+    .img { height: 20rem; width: 20rem; }
+}

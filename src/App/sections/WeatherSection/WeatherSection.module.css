@@ -1,0 +1,5 @@
+.container {
+    background-image: url(../../../img/world-g531877199_1920.jpg); background-size: cover; background-position: center;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    width: 100%;
+}

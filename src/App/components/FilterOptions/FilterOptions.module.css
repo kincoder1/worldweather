@@ -1,0 +1,9 @@
+.container {
+    background-color: #ffff; box-shadow: 0px 3px 10px -5px #000; border-radius: 5px;
+    display: flex; justify-content: space-between; align-items: center;
+    width: 15rem; padding: 7px;
+}
+.select { border: 0px; }
+
+.select_left { background-color: #ffff; width: 30%; }
+.select_right { width: 70%; height: 1rem; }

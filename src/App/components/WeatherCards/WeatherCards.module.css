@@ -1,0 +1,21 @@
+.container, .sm_container {
+    display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center;
+    padding-top: 3vh; padding-bottom: 5vh;
+}
+.sm_container { align-items: flex-start; height: 100vh; }
+
+.container_section { 
+    background-image: url(../../../img/bg-laptop-3.jpg); background-size: cover; background-position: center; 
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px)  {
+    .container { width: 70vw; gap: 10px; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .container { width: 80vw; gap: 10px; }
+}
+
+@media screen and (min-width: 800px) {
+    .container { width: 70vw; gap: 10px; }
+}

@@ -1,0 +1,14 @@
+.container { background-color: #000; border-radius: 5px; padding: 5px; text-align: center; color: #ffff; }
+.img { height: 20vh; width: 13vw; }
+.txt { padding: 5px; }
+
+
+@media screen and (min-width: 300px) and (max-width: 500px)  {
+    .container { width: 10rem; }
+    .img { height: 5rem; width: 100%; }
+}
+
+@media screen and (min-width: 500px) {
+    .container { width: 13rem; }
+    .img { height: 7rem; width: 100%; }
+}
